@@ -8,8 +8,15 @@ import {BatteryService} from './tesla-battery.service';
 // containers
 import { TeslaBatteryComponent } from './containers/tesla-battery/tesla-battery.component'
 
+//components
+import { TeslaCarComponent } from './components/tesla-car/tesla-car.component'
+
 @NgModule({
-    declarations: [],
+    declarations: [
+        // registering our container component
+        TeslaBatteryComponent,
+        TeslaCarComponent
+    ],
     imports: [
         CommonModule,
         ReactiveFormsModule
@@ -17,7 +24,10 @@ import { TeslaBatteryComponent } from './containers/tesla-battery/tesla-battery.
     providers: [
         BatteryService
     ],
-    exports: []
+    exports: [
+        // exporting so our root module can access
+        TeslaBatteryComponent
+    ]
 })
 
 export class TeslaBatteryModule { }

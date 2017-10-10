@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
     selector: 'tesla-battery',
-    template: './tesla-battery.component.html',
+    templateUrl: './tesla-battery.component.html',
     styleUrls: ['./tesla-battery.component.scss']
 })
 export class TeslaBatteryComponent implements OnInit {
