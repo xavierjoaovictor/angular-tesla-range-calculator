@@ -1,0 +1,17 @@
+
+.header {
+  padding: 20px 20px;
+  background: #ffffff;
+  background: linear-gradient(to bottom, #ffffff 1%,#ffffff 95%,#fb6910 100%);
+  img {
+    height: 20px;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    li {
+      display: inline;
+    }
+  }
+}

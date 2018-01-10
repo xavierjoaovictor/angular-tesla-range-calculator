@@ -6,10 +6,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {BatteryService} from './tesla-battery.service';
 
 // containers
-import { TeslaBatteryComponent } from './containers/tesla-battery/tesla-battery.component'
+import { TeslaBatteryComponent } from './containers/tesla-battery/tesla-battery.component';
 
 //components
-import { TeslaCarComponent } from './components/tesla-car/tesla-car.component'
+import { TeslaCarComponent } from './components/tesla-car/tesla-car.component';
 
 @NgModule({
     declarations: [

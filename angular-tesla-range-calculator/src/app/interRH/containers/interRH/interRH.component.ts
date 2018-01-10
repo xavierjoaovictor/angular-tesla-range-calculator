@@ -5,10 +5,10 @@ import { Component, OnInit } from '@angular/core';
     templateUrl: './interRH.component.html',
     styleUrls: ['./interRH.component.scss']
 })
-export class InterComponent implements OnInit {
+export class InterComponent {
     title: string = 'Teste de digitação';
-
-    ngOnInit(){
-        
-    }
+    //
+    // ngOnInit(){
+    //
+    // }
 }
